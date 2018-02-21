@@ -65,6 +65,7 @@ public class FingerprintDemoActivity extends AppCompatActivity {
                 Manifest.permission.USE_FINGERPRINT) !=
                 PackageManager.PERMISSION_GRANTED) {
             // Hilfsklasse wie FingerprintHandler für Passworteingabe
+
            // Toast.makeText(this,
            //         "Fingerprint authentication permission not enabled",
             //       Toast.LENGTH_LONG).show();
